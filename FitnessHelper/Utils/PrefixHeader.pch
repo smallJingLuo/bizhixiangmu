@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  FitnessHelper
+//
+//  Created by 成都千锋 on 15/10/27.
+//  Copyright (c) 2015年 成都千锋. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+typedef enum :NSInteger{
+    LJObjectsViewControllerHot,
+    LJObjectsViewControllerFresh,
+    LJObjectsViewControllerShare,
+    LJObjectsViewControllerDistinct,
+    LJObjectsViewControllerFind,
+    LJObjectsViewControllerPicture,
+    LJObjectsViewControllerSexy,
+    LJObjectsViewControllerAmuse
+}LJObjectsViewControllerType;
+#endif

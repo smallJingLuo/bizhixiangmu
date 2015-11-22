@@ -1,0 +1,7 @@
+platform:ios,'7.0'
+pod 'RESideMenu', '~> 4.0.7'
+pod 'SDWebImage', '~>3.7'
+pod 'Ono'
+pod 'MJRefresh'
+pod 'MBProgressHUD'
+pod 'FMDB'
